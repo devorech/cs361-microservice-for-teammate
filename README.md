@@ -1,4 +1,4 @@
-Microservice A
+## Microservice A
 
 _NOTE: for explaining how to REQUEST and RECIEVE data, viewing all blog posts is used as the example. This will look slightly different if you are creating a new post, but similar enough._
   
@@ -12,5 +12,6 @@ How to RETRIEVE data:
 3. MongoDB responds and sends back the JSON information for the database containing the database's information
 4. The microservice calls res.status(200).json({ _database info_ }), with _database info_ containing the variable that holds the JSON recieved from the databse
 
-**UML Diagram**
-[uml_diagram](./CS-361-UML-Diagram.png)
+ 
+## UML Diagram
+![uml_diagram](./CS-361-UML-Diagram.png)
