@@ -13,3 +13,4 @@ How to RETRIEVE data:
 4. The microservice calls res.status(200).json({ _database info_ }), with _database info_ containing the variable that holds the JSON recieved from the databse
 
 **UML Diagram**
+./CS-361-UML-Diagram
